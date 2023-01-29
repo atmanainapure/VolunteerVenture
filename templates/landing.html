@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VolunteerVenture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif, ;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+        .fade-in-image { 
+            animation: fadeIn 5s; 
+        }
+        @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+        }   
+        .text{
+            position:relative; 
+            /* left:80px;  */
+            top:-200px;
+        }
+        header {
+            
+            font: Helvetica;
+            background-image: url("media/handd.jpg");
+            image-rendering: -webkit-optimize-contrast;
+            background-size: cover;
+            background-position:50% 50%;
+            background-attachment: scroll; /* or scroll */
+            /* background-color: #f15a87; */
+            color: #ffffff;
+            text-align: center;
+            padding: 16em;
+        }
+        
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0.5em;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline-block;
+            margin: 0 1em;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        main {
+            padding: 1em;
+        }
+        
+        section {
+            margin-bottom: 1em;
+        }
+        
+        section h2 {
+            margin-bottom: 0.5em;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0.5em;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="fade-in-image ">
+      <h1 class="text">Welcome to VolunteerVenture</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#events">Upcoming Events</a></li>
+        <li><a href="/signin">Sign In</a></li>
+        <li><a href="/signup">Create Account</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>VolunteerVenture is a non-profit organization that connects volunteers with community service opportunities. We believe in the power of volunteering to make a positive impact on individuals and communities. Join us in making a difference!</p>
+      </section>
+      <section id="events">
+        <hr>
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li>Community Clean-Up Day - Saturday, March 15th</li>
+          <li>Food Drive for Local Food Bank - Saturday, April 12th</li>
+        </ul>
+        <hr>
+      </section>
+      <section id="volunteer">
+        <h2>Become a Volunteer</h2>
+        <p>If you're interested in becoming a volunteer with VolunteerVenture, please fill out our <a href="volunteer_application.html">volunteer application</a> and we'll be in touch with upcoming opportunities that match your interests and availability.</p>
+      </section>
+      <hr>
+      <section id="donate">
+        <h2>Donate</h2>
+        <p>Your donation will support our mission of connecting volunteers with community service opportunities. Every little bit helps! <a href="donate.html">Donate now</a>.</p>
+      </section>
+      <hr>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: atmanainapure@gmail.com<br>
+        Phone: +91 8779801508<br>
+        Mailing Address: Mumbai, India.</p>
+      </section>
+      <hr>
+    </main>
+    <footer>
+      <p>Copyright © 2023 VolunteerVenture</p>
+    </footer>
+  </body>
+</html>
